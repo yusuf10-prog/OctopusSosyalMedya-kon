@@ -1,8 +1,9 @@
 
-Feature: US0001 Octopus Linkedln ikonu testi
-  @Octopus
-  Scenario:  TC01 Linkedln testi
+@Octopus
+Feature: US0001 Octopus LinkedIn ikonu testi
+
+  Scenario:  TC01 LinkedIn testi
 
     Given Siteye "url" adresi ile giris yapilir.
-    And Linkedln ikonuna tiklanir.
+    And LinkedIn ikonuna tiklanir.
     Then sayfa kapatilir.

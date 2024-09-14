@@ -15,8 +15,9 @@ public class OctopusStepdefinitions {
     public void siteye_adresi_ile_giris_yapilir(String url) {
         Driver.getDriver().get(ConfigReader.getProperty(url));
     }
-    @Given("Linkedln ikonuna tiklanir.")
-    public void linkedln_ikonuna_tiklanir() {
+
+    @Given("LinkedIn ikonuna tiklanir.")
+    public void LinkedIn_ikonuna_tiklanir() {
         ReusableMethods.bekle(10);
 
         // JavascriptExecutor nesnesini oluştur
@@ -25,12 +26,62 @@ public class OctopusStepdefinitions {
         // Sayfayı aşağıya kaydır
         js.executeScript("window.scrollBy(0, 10000);");
 
-        octopusPage.LinkedInIokun.click();
+        octopusPage.LinkedIn.click();
+    }
+    @Given("X ikonuna tiklanir.")
+    public void X_ikonuna_tiklanir() {
+        ReusableMethods.bekle(10);
+
+        // JavascriptExecutor nesnesini oluştur
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+
+        // Sayfayı aşağıya kaydır
+        js.executeScript("window.scrollBy(0, 10000);");
+
+        octopusPage.X.click();
+    }
+    @Given("Instagram ikonuna tiklanir.")
+    public void Instagram_ikonuna_tiklanir() {
+        ReusableMethods.bekle(10);
+
+        // JavascriptExecutor nesnesini oluştur
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+
+        // Sayfayı aşağıya kaydır
+        js.executeScript("window.scrollBy(0, 10000);");
+
+        octopusPage.Instagram.click();
+    }
+
+    @Given("Facebook ikonuna tiklanir.")
+    public void Facebook_ikonuna_tiklanir() {
+        ReusableMethods.bekle(10);
+
+        // JavascriptExecutor nesnesini oluştur
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+
+        // Sayfayı aşağıya kaydır
+        js.executeScript("window.scrollBy(0, 10000);");
+
+        octopusPage.Facebook.click();
+    }
+
+    @Given("YouTube ikonuna tiklanir.")
+    public void Youtube_ikonuna_tiklanir() {
+        ReusableMethods.bekle(10);
+
+        // JavascriptExecutor nesnesini oluştur
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+
+        // Sayfayı aşağıya kaydır
+        js.executeScript("window.scrollBy(0, 10000);");
+
+        octopusPage.YouTube.click();
     }
     @Then("sayfa kapatilir.")
     public void sayfa_kapatilir() {
+        //Driver.quitDriver();
 
-        Driver.quitDriver();
     }
 
 }

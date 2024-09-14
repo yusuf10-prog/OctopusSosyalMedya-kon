@@ -12,6 +12,18 @@ public class OctopusPage {
     }
 
     @FindBy(partialLinkText = "LinkedIn")
-    public WebElement LinkedInIokun;
+    public WebElement LinkedIn;
+
+    @FindBy(partialLinkText = "Twitter")
+    public WebElement X;
+
+    @FindBy(partialLinkText = "Instagram")
+    public WebElement Instagram;
+
+    @FindBy(partialLinkText = "Facebook")
+    public WebElement Facebook;
+
+    @FindBy(partialLinkText = "YouTube")
+    public WebElement YouTube;
 
 }
