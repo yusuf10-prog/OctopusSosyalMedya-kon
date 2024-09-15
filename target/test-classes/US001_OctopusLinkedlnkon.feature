@@ -1,9 +1,9 @@
 
 @Octopus
-Feature: US0001 Octopus Instagram ikonu testi
+Feature: US001 Octopus LinkedIn ikonu testi
 
-  Scenario:  TC01 Instagram testi
+  Scenario:  TC01 LinkedIn testi
 
     Given Siteye "url" adresi ile giris yapilir.
-    And Instagram ikonuna tiklanir.
+    And LinkedIn ikonuna tiklanir.
     Then sayfa kapatilir.

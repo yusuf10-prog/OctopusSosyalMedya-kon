@@ -1,6 +1,6 @@
 @Octopus
 
-Feature: US0004 Octopus Facebook ikonu testi
+Feature: US004 Octopus Facebook ikonu testi
 
   Scenario:  TC01 Facebook testi
 

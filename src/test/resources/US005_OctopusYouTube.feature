@@ -1,6 +1,6 @@
 @Octopus
 
-Feature: US0005 Octopus YouTube ikonu testi
+Feature: US005 Octopus YouTube ikonu testi
 
   Scenario:  TC01 YouTube testi
 

@@ -1,6 +1,6 @@
 @Octopus
 
-Feature: US0001 Octopus Instagram ikonu testi
+Feature: US003 Octopus Instagram ikonu testi
 
   Scenario:  TC01 Instagram testi
 

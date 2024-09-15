@@ -1,9 +1,9 @@
 @Octopus
 
-Feature: US0001 Octopus X ikonu testi
+Feature: US003 Octopus Instagram ikonu testi
 
-  Scenario:  TC01 X testi
+  Scenario:  TC01 Instagram testi
 
     Given Siteye "url" adresi ile giris yapilir.
-    And X ikonuna tiklanir.
+    And Instagram ikonuna tiklanir.
     Then sayfa kapatilir.

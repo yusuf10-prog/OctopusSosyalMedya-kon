@@ -1,6 +1,6 @@
 @Octopus
 
-Feature: US0001 Octopus X ikonu testi
+Feature: US002 Octopus X ikonu testi
 
   Scenario:  TC01 X testi
 

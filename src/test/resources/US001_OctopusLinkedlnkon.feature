@@ -1,6 +1,6 @@
 
 @Octopus
-Feature: US0001 Octopus LinkedIn ikonu testi
+Feature: US001 Octopus LinkedIn ikonu testi
 
   Scenario:  TC01 LinkedIn testi
 

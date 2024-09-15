@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="145.03" tests="5" skipped="0" failures="1" errors="0">
+<testcase classname="US001 Octopus LinkedIn ikonu testi" name="TC01 LinkedIn testi" time="39.783">
+<system-out><![CDATA[
+Given Siteye "url" adresi ile giris yapilir.................................passed
+And LinkedIn ikonuna tiklanir...............................................passed
+Then sayfa kapatilir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US002 Octopus X ikonu testi" name="TC01 X testi" time="29.937">
+<system-out><![CDATA[
+Given Siteye "url" adresi ile giris yapilir.................................passed
+And X ikonuna tiklanir......................................................passed
+Then sayfa kapatilir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US003 Octopus Instagram ikonu testi" name="TC01 Instagram testi" time="12.115">
+<failure type="org.openqa.selenium.StaleElementReferenceException" message="stale element reference: stale element not found
+  (Session info: chrome=128.0.6613.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c338706348e8c0a8429bfcd46d7e3d6, clickElement {id=f.4F0260EBBC337F786B9F78ADE6DE3297.d.AA8EF06F8D3F3CEAC6DCDEE38D2D0B53.e.21}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: /var/folders/q7/fgckgx0j1h9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54816/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (0c338706348e8c0a8429bfcd46d7e3d6)] -&gt; partial link text: Instagram]
+Session ID: 0c338706348e8c0a8429bfcd46d7e3d6">
+<![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=128.0.6613.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c338706348e8c0a8429bfcd46d7e3d6, clickElement {id=f.4F0260EBBC337F786B9F78ADE6DE3297.d.AA8EF06F8D3F3CEAC6DCDEE38D2D0B53.e.21}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: /var/folders/q7/fgckgx0j1h9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54816/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (0c338706348e8c0a8429bfcd46d7e3d6)] -> partial link text: Instagram]
+Session ID: 0c338706348e8c0a8429bfcd46d7e3d6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at stepdefinitions.OctopusStepdefinitions.Instagram_ikonuna_tiklanir(OctopusStepdefinitions.java:85)
+	at ✽.Instagram ikonuna tiklanir.(file:///Users/yusuf/IdeaProjects/Octopus/src/test/resources/US003_OctopusInstagram.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Siteye "url" adresi ile giris yapilir.................................passed
+And Instagram ikonuna tiklanir..............................................failed
+Then sayfa kapatilir........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="US004 Octopus Facebook ikonu testi" name="TC01 Facebook testi" time="26.626">
+<system-out><![CDATA[
+Given Siteye "url" adresi ile giris yapilir.................................passed
+And Facebook ikonuna tiklanir...............................................passed
+Then sayfa kapatilir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US005 Octopus YouTube ikonu testi" name="TC01 YouTube testi" time="36.075">
+<system-out><![CDATA[
+Given Siteye "url" adresi ile giris yapilir.................................passed
+And YouTube ikonuna tiklanir................................................passed
+Then sayfa kapatilir........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
