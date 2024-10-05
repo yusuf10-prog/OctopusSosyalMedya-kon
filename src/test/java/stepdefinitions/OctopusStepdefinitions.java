@@ -80,10 +80,7 @@ public class OctopusStepdefinitions {
     }
     @Given("Instagram ikonuna tiklanir.")
     public void Instagram_ikonuna_tiklanir() {
-
-
         octopusPage.Instagram.click();
-
 
         String ilkSayfaWhd= Driver.getDriver().getWindowHandle();
         System.out.println(ilkSayfaWhd);
@@ -109,10 +106,7 @@ public class OctopusStepdefinitions {
 
         // Sayfayı aşağıya kaydır
         js.executeScript("window.scrollBy(0, 10000);");
-
-
     }
-
     @Given("Facebook ikonuna tiklanir.")
     public void Facebook_ikonuna_tiklanir() {
         ReusableMethods.bekle(5);
@@ -144,17 +138,15 @@ public class OctopusStepdefinitions {
         js.executeScript("window.scrollBy(0, 10000);");
 
     }
-
     @Given("YouTube ikonuna tiklanir.")
     public void Youtube_ikonuna_tiklanir() {
         ReusableMethods.bekle(5);
 
-        // JavascriptExecutor nesnesini oluştur
+        // JavascriptExecutor nesnesini oluştur.
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
 
-        // Sayfayı aşağıya kaydır
+        // Sayfayı aşağıya kaydır.
         js.executeScript("window.scrollBy(0, 10000);");
-
         octopusPage.YouTube.click();
 
         String ilkSayfaWhd= Driver.getDriver().getWindowHandle();
@@ -173,9 +165,6 @@ public class OctopusStepdefinitions {
         Driver.getDriver().switchTo().window(ikinciSayfaWhd);
         ReusableMethods.bekle(5);
         Driver.getDriver().switchTo().window(ilkSayfaWhd);
-
-        ReusableMethods.bekle(5);
-
     }
     @Then("sayfa kapatilir.")
     public void sayfa_kapatilir() {
