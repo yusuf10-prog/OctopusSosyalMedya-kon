@@ -10,7 +10,6 @@ public class OctopusPage {
         PageFactory.initElements(Driver.getDriver(),this);
 
     }
-
     @FindBy(partialLinkText = "LinkedIn")
     public WebElement LinkedIn;
 
