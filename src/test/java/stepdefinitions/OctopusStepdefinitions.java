@@ -140,7 +140,6 @@ public class OctopusStepdefinitions {
     }
     @Given("YouTube ikonuna tiklanir.")
     public void Youtube_ikonuna_tiklanir() {
-        ReusableMethods.bekle(5);
 
         // JavascriptExecutor nesnesini oluştur.
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
