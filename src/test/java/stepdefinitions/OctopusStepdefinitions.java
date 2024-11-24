@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.util.Set;
 
 public class OctopusStepdefinitions {
-
     OctopusPage octopusPage=new OctopusPage();
     @Given("Siteye {string} adresi ile giris yapilir.")
     public void siteye_adresi_ile_giris_yapilir(String url) {
